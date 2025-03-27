@@ -72,6 +72,11 @@ Build a FastAPI-based REST API that processes user chat data, stores conversatio
   - Build a simple UI using Streamlit for chat interaction.
 
 ---
+# Working Screenshots (*AS OF NOW, STILL IN PROGRESS) : 
+
+![Image 1](screenshot-working/img1.png)
+![Image 2](screenshot-working/img2.png)
+![Image 3](screenshot-working/img3.png)
 
 
 # Master Plan : 
