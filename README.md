@@ -396,3 +396,82 @@ chat_api/
 - Implement endpoint health checks
 - Set up database connection monitoring
 - Create LLM service availability checks
+
+# Installation and Setup
+
+## Prerequisites
+
+Before installing this application, ensure you have the following prerequisites:
+
+- Python 3.8 or higher
+- pip (Python package installer)
+- Git (for cloning the repository)
+
+## Clone the Repository
+
+```bash
+git clone https://github.com/mitsu9835/Chat-Summarization-and-Insights-API.git
+cd Chat-Summarization-and-Insights-API
+```
+
+## Setting up a Virtual Environment (Recommended)
+
+It's recommended to use a virtual environment to avoid conflicts with other Python packages:
+
+### On Windows
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### On macOS/Linux
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+## Install Dependencies
+
+Once your virtual environment is activated, install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Configuration
+
+1. If the application requires any configuration files, copy the example files:
+   ```bash
+   cp config.example.ini config.ini
+   ```
+
+2. Edit the configuration files with your specific settings:
+   ```bash
+   # Edit the configuration file with your preferred text editor
+   nano config.ini
+   ```
+
+## Running the Application
+
+Run the main.py file by running : 
+
+```bash
+python main.py
+```
+
+And then in a new terminal, Start the Streamlit application by running:
+
+```bash
+streamlit run app.py
+```
+
+This will launch the application and open it in your default web browser. If it doesn't open automatically, you can access it at `http://localhost:8501`.
+
+## Troubleshooting
+
+If you encounter any issues during installation or setup:
+
+1. Ensure all prerequisites are correctly installed
+2. Verify that your Python version is compatible
+3. Check that all dependencies were installed correctly
+4. Consult the logs for detailed error messages
