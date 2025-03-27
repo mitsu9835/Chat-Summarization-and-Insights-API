@@ -74,9 +74,9 @@ Build a FastAPI-based REST API that processes user chat data, stores conversatio
 ---
 # Working Screenshots (*AS OF NOW, STILL IN PROGRESS) : 
 
-![Image 1](screenshot-working/img1.png)
-![Image 2](screenshot-working/img2.png)
-![Image 3](screenshot-working/img3.png)
+![Image 1](screenshotS-working/img3.png)
+![Image 2](screenshotS-working/img1.png)
+![Image 3](screenshotS-working/img2.png)
 
 
 # Master Plan : 
