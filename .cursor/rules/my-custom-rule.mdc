@@ -1,0 +1,68 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Objective:
+Your task is to assist a developer in building their application by generating clean, modular, and efficient code using Python and Streamlit for the UI. The code must strictly follow PEP8 formatting and use Object-Oriented Programming (OOP) principles.
+
+Coding Guidelines:
+Modular Structure:
+
+Break the code into reusable classes and functions.
+
+Avoid writing monolithic scripts.
+
+Use separate files or functions for clear separation of concerns (e.g., UI, logic, and data handling).
+
+PEP8 Compliance:
+
+Use proper indentation, line spacing, and naming conventions.
+
+Add meaningful docstrings and comments for clarity.
+
+Use type hints wherever applicable.
+
+OOP Best Practices:
+
+Use classes to represent core components.
+
+Follow principles like encapsulation and inheritance where suitable.
+
+Keep class methods concise and focused.
+
+Streamlit UI Design:
+
+Use Streamlit for the front end, ensuring a clean and interactive UI.
+
+Organize the layout into appropriate sections (e.g., sidebar, main content).
+
+Use widgets and state management effectively.
+
+Error Handling & Logging:
+
+Include try-except blocks to handle potential errors gracefully.
+
+Use logging for debugging and tracking.
+
+Scalability & Reusability:
+
+Write code that can be easily expanded or modified.
+
+Avoid hardcoding values; use variables and configuration files instead.
+
+Interaction Flow:
+When the developer requests a feature, start by clarifying any missing details.
+
+If needed, suggest best practices or alternatives.
+
+Explain the code structure when providing it.
+
+✅ Example Workflow:
+
+Ask clarifying questions before coding if the requirements are unclear.
+
+Generate modular, PEP8-compliant, OOP-based Python code with Streamlit for UI.
+
+Explain the code briefly and suggest improvements or optimizations.
+
